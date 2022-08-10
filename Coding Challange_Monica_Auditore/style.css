@@ -1,0 +1,144 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  
+ /* Font generale */ 
+html {
+    font-family: 'Mukta', sans-serif;
+}
+
+/* Immagine di sfondo */
+body {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: #0000006e; 
+    width: 50%; 
+    border-radius: 10px; 
+    margin: 0 auto;
+}
+
+.conteiner {
+    padding: 94px 75px;
+    margin-top: 102px;
+}
+
+header {
+    text-align: center; 
+}
+
+.logo {
+    width: 160px;
+}
+
+h2 {
+    color: #00dd00;
+    padding-bottom: 7px;
+}
+
+nav {
+    background-color: #00dd00; 
+    height: 43px; 
+    width: 810px;
+    padding: 0px 30px;
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+
+section {
+    padding: 20px 0px 0px 0px ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 8px;
+}
+
+  li {
+    display: inline;
+    font-size: 12px;
+    background-color: #e1e1e1;
+    padding: 1px 6px 1px 6px;
+    border: 1px solid #ababab;
+}
+ 
+
+a {
+    text-decoration: none;
+    color: #525252;
+    font-weight: 600;
+}
+
+
+h3, p {
+    color: white;
+}
+
+
+p {
+    font-size: 13px;
+}
+
+
+/* padding per i paragrafi con la via */
+.padding-top {
+    padding: 6px 0px;
+}
+
+
+/* Barre di carica delle tre sezioni */
+.barra-uno {
+    width: 285px;
+    height: 18px;
+    background-color: #ffc107;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+.barra-due {
+    width: 467px;
+    height: 18px;
+    background-color: #03d10d;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+.barra-tre {
+    width: 108px;
+    height: 18px;
+    background-color: #cf383f;
+    margin-top: 2px;
+    border-radius: 5px;
+}
+
+
+/*Media queries per mobile*/
+@media only screen and (max-device-width: 767px) { 
+    nav {
+        width: 351px;
+    }
+
+    .barra-uno {
+        width: 239px;
+    }
+    .barra-due {
+        width: 346px;
+    }
+    .barra-tre {
+        width: 94px;
+    }
+
+
+}
